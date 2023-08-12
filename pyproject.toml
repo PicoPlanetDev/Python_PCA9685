@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "PCA9685_PicoPlanetDev"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Sigmond Kukla", email="picoplanetdev@gmail.com" },
 ]
