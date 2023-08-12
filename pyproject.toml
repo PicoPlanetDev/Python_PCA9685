@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "PCA9685_PicoPlanetDev"
-version = "0.0.3"
+name = "PCA9685_smbus2"
+version = "0.0.5"
 authors = [
   { name="Sigmond Kukla", email="picoplanetdev@gmail.com" },
 ]
@@ -15,6 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+  'smbus2'
 ]
 
 [project.urls]
