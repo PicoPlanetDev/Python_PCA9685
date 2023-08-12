@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "PCA9685_PicoPlanetDev"
+version = "0.0.1"
+authors = [
+  { name="Sigmond Kukla", email="picoplanetdev@gmail.com" },
+]
+description = "Pure Python interface for PCA9685 built on smbus2"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PicoPlanetDev/https://github.com/PicoPlanetDev/Python_PCA9685"
+"Bug Tracker" = "https://github.com/PicoPlanetDev/Python_PCA9685/issues"
