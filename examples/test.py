@@ -1,4 +1,4 @@
-from PCA9685_PicoPlanetDev import PCA9685
+from PCA9685_smbus2 import PCA9685
 import time
 
 
