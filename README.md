@@ -1,4 +1,4 @@
-# Python-PCA9685
+# PCA9685-smbus2
 
 A ~~probably~~ definitely not-best-practices way to use the PCA9685 with an Orange Pi Zero 3.
 
